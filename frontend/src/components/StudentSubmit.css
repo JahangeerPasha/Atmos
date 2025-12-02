@@ -1,0 +1,187 @@
+.student-submit {
+  background: radial-gradient(circle at top right, #f9fbff 0%, #eef4ff 50%, #f4f2ff 100%);
+  border-radius: 28px;
+  padding: 32px;
+  color: #0b0d2b;
+  box-shadow: 0 40px 60px rgba(15, 23, 42, 0.2);
+}
+
+.student-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(10, 132, 255, 0.15), rgba(236, 239, 255, 0.6));
+  border-radius: 20px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  margin-bottom: 28px;
+}
+
+.hero-tag {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1d4ed8;
+  margin-bottom: 6px;
+}
+
+.hero-desc {
+  max-width: 420px;
+  color: #1f2937;
+  margin-top: 4px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  min-width: 240px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.form-card,
+.tickets-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 24px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+}
+
+.form-head h3 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.form-head p {
+  margin: 6px 0 18px;
+  color: #475569;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #cbd5f5;
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 12px;
+  background: #f8fafc;
+}
+
+.form-card textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button.primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+}
+
+button.primary:active {
+  transform: translateY(0);
+}
+
+.tickets-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.tickets-count {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.ticket-card {
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: #f8fafc;
+  margin-bottom: 12px;
+}
+
+.ticket-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.status-pill {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.status-pill.pending {
+  background: rgba(234, 179, 8, 0.2);
+  color: #b45309;
+}
+
+.status-pill.claimed {
+  background: rgba(59, 130, 246, 0.2);
+  color: #1d4ed8;
+}
+
+.status-pill.resolved {
+  background: rgba(16, 185, 129, 0.2);
+  color: #047857;
+}
+
+.ticket-desc {
+  margin: 6px 0;
+  color: #475569;
+}
+
+.ticket-meta {
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+@media (max-width: 768px) {
+  .student-hero {
+    flex-direction: column;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    width: 100%;
+  }
+}
