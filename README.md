@@ -1,7 +1,6 @@
 # 🚦 Queue – Real-Time Mentorship Queue System
 
-Queue is a real-time mentorship queue management platform designed for educational programs, bootcamps, and corporate training environments.  
-It enables students to request help, mentors to manage tickets efficiently, and admins to track live analytics — all with instant, real-time updates.
+Queue is a real-time mentorship queue management platform designed for educational programs, bootcamps, and corporate training environments. It enables students to request help, mentors to manage tickets efficiently, and admins to track live analytics — all with instant, real-time updates.
 
 ---
 
