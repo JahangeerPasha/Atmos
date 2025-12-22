@@ -1,4 +1,4 @@
-# Atmos — Real-Time Team Wellness & Analytics Platform
+# Queue: Real-Time Mentorship Queue System
 
 Atmos is a real-time team wellness monitoring and analytics platform designed to improve team engagement, morale, and performance.  
 It features **anonymous pulse checks**, **live dashboards**, **sentiment analytics**, and a **real-time Kudos/Q&A engine**.
