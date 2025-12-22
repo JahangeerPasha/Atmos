@@ -73,6 +73,8 @@ MONGO_URI=
 JWT_SECRET=
 PORT=5000
 ```
+# Application Overview
+<img width="1917" height="1004" alt="image" src="https://github.com/user-attachments/assets/6bc25359-80f1-4489-a290-ff1848aae0c5" />
 
 
 
