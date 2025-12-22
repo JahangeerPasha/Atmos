@@ -74,7 +74,26 @@ JWT_SECRET=
 PORT=5000
 ```
 # Application Overview
+Login Page
 <img width="1917" height="1004" alt="image" src="https://github.com/user-attachments/assets/6bc25359-80f1-4489-a290-ff1848aae0c5" />
+
+Admin Dashboard
+<img width="1913" height="1016" alt="image" src="https://github.com/user-attachments/assets/aebc39e2-84ae-4a26-b4ec-3402af3aa223" />
+
+Student Dashboard
+<img width="1915" height="593" alt="image" src="https://github.com/user-attachments/assets/971a2d13-fc65-4833-bb12-c62ab7969854" />
+<img width="1913" height="997" alt="image" src="https://github.com/user-attachments/assets/aaaf7a8e-73e4-45e7-ba81-d67526c5ebcb" />
+
+Mentor Dashboard
+<img width="1916" height="976" alt="image" src="https://github.com/user-attachments/assets/74805df7-055e-4ddb-80a5-159a59c6787e" />
+<img width="1916" height="1009" alt="image" src="https://github.com/user-attachments/assets/8609bf99-b85a-45e5-8ab1-7de097581094" />
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/4b2e7347-635c-41bc-b4e5-0fa69a7469bf" />
+
+
+
+
+
+
 
 
 
